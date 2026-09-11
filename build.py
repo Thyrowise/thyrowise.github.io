@@ -16,6 +16,18 @@ from html.parser import HTMLParser
 SITE = "https://thyrowise.github.io"
 ROOT = pathlib.Path(__file__).parent
 SKIP_TAGS = {"script", "style", "svg", "nav", "head"}
+
+# llms-full.txt de kopyala-yapıştırla taşınıyor; ASCII kalsın ki bozulmasın.
+# (Sayfalar to-ascii.py ile entity'ye çevrildi, HTMLParser onları geri çözüyor.)
+PLAIN = {"\u2014": "--", "\u2013": "-", "\u2019": "'", "\u2018": "'",
+         "\u201c": '"', "\u201d": '"', "\u00b7": "*", "\u2026": "..."}
+
+
+def plain(s: str) -> str:
+    for a, b in PLAIN.items():
+        s = s.replace(a, b)
+    return s
+
 BLOCK = {"p", "li", "h1", "h2", "h3", "div", "tr", "table", "ul", "ol"}
 
 
@@ -80,7 +92,7 @@ def main() -> None:
         p = Text()
         p.feed(f.read_text(encoding="utf-8"))
         urls.append((path, "1.0" if path == "/" else "0.8"))
-        chunks.append(f"# {p.title.strip()}\nURL: {SITE}{path}\n\n{p.text}\n")
+        chunks.append(plain(f"# {p.title.strip()}\nURL: {SITE}{path}\n\n{p.text}\n"))
 
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -96,7 +108,7 @@ def main() -> None:
     )
 
     (ROOT / "llms-full.txt").write_text(
-        "# Thyrowise — full site text\n"
+        "# Thyrowise -- full site text\n"
         f"# Generated {today} from https://thyrowise.github.io. "
         "Structured index: https://thyrowise.github.io/llms.txt\n\n"
         + ("\n\n---\n\n".join(chunks))

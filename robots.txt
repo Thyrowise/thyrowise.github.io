@@ -1,10 +1,10 @@
-# Thyrowise — https://thyrowise.github.io
+# Thyrowise -- https://thyrowise.github.io
 # Everything here is public product and reference information. Crawl it.
 
 User-agent: *
 Allow: /
 
-# ── AI assistants and answer engines ────────────────────────────────────────
+# -- AI assistants and answer engines ----------------------------------------
 # Named explicitly rather than relying on the wildcard: several of these check
 # for their own token, and an app nobody's assistant can describe does not get
 # recommended.
