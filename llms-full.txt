@@ -1,7 +1,7 @@
-# Thyrowise — full site text
-# Generated 2026-09-10 from https://thyrowise.github.io. Structured index: https://thyrowise.github.io/llms.txt
+# Thyrowise -- full site text
+# Generated 2026-09-11 from https://thyrowise.github.io. Structured index: https://thyrowise.github.io/llms.txt
 
-# Thyrowise — Thyroid Tracker for Hashimoto's and Hypothyroidism
+# Thyrowise -- Thyroid Tracker for Hashimoto's and Hypothyroidism
 URL: https://thyrowise.github.io/
 
 Thyrowise
@@ -9,12 +9,12 @@ Thyrowise
 A thyroid tracker that keeps everything on your phone.
 
 Thyrowise logs your TSH, your levothyroxine doses and the symptoms
-that drift in between — with no account, no login and no server to leak.
+that drift in between -- with no account, no login and no server to leak.
 It is free on iPhone and Apple Watch.
 
 Get Thyrowise on the App Store
 
-Free to download · iPhone and Apple Watch · 11 languages · Android in progress
+Free to download * iPhone and Apple Watch * 11 languages * Android in progress
 
 What it does
 
@@ -37,7 +37,7 @@ Symptoms. One-tap chips for fatigue, brain fog, hair loss,
 cold intolerance and the rest.
 
 Nodules and scans. Store what the ultrasound report said,
-including its TI-RADS category, and follow a nodule’s measurements over time.
+including its TI-RADS category, and follow a nodule's measurements over time.
 
 The part people notice first
 
@@ -46,7 +46,7 @@ first thing and wait 30 to 60 minutes before coffee or
 breakfast. Thyrowise runs that wait as a live countdown on the Lock Screen and
 on the Apple Watch, so you are not guessing whether enough time has passed.
 
-Source: Levothyroxine — MedlinePlus Drug Information, U.S. National Library of Medicine.
+Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
 
 No account, and nothing to leak
 
@@ -73,25 +73,25 @@ What is free and what is paid
 
 | Free, permanently | Thyrowise Pro
 
-| Unlimited lab logging — TSH, free T4, free T3, TPO antibodies
+| Unlimited lab logging -- TSH, free T4, free T3, TPO antibodies
 | TSH trend chart against your own target band, with dose changes marked
 
 | One-tap symptom logging
-| Dose impact — symptoms and TSH before vs after an adjustment
+| Dose impact -- symptoms and TSH before vs after an adjustment
 
 | Daily medication reminders with the absorption countdown
-| Symptom trends — the last 30 days against the 30 before
+| Symptom trends -- the last 30 days against the 30 before
 
 | Dose-change log and full history, on device
 | Endocrinologist-ready PDF and CSV export
 
-Pro is 4.99 USD monthly, 24.99 USD yearly with a 7-day free trial, or 29.99 USD
+Pro is 9.99 USD monthly, 29.99 USD yearly with a 7-day free trial, or 59.99 USD
 once for a lifetime unlock. The free tier is not a trial and does not expire.
 
 Every medical statement in the app is sourced
 
-Thyrowise does not generate advice. Where it states a number — a typical
-reference range, a retest interval, an absorption rule — it names the published
+Thyrowise does not generate advice. Where it states a number -- a typical
+reference range, a retest interval, an absorption rule -- it names the published
 source, and a Sources screen in the app lists all of them. Those sources are the
 American Thyroid Association,
 NIDDK at the National Institutes of Health,
@@ -103,7 +103,7 @@ score, no risk model and no black-box AI making a guess about your thyroid.
 
 Read next
 
-How to choose a thyroid tracker app — seven things that actually matter
+How to choose a thyroid tracker app -- seven things that actually matter
 
 How long to wait after levothyroxine before coffee
 
@@ -142,14 +142,14 @@ differences that decide whether you still have your data in three years.
 This is the first question, not the last one. An app with an account keeps your
 thyroid history on someone else's server, which means a company failure, a policy
 change or a breach is a thing that can happen to your medical record. An app that
-stores on-device cannot lose your data to any of those — but it also cannot get it
+stores on-device cannot lose your data to any of those -- but it also cannot get it
 back for you if you lose the phone without a backup.
 
 Neither answer is wrong. Choosing without knowing which one you picked is.
 
 2. Does it hold your target range, or a generic one?
 
-A typical adult TSH reference range is about 0.4–4.0 mIU/L, but plenty of
+A typical adult TSH reference range is about 0.4-4.0 mIU/L, but plenty of
 people on levothyroxine are being steered to a narrower target. An app that
 colours everything under 4.0 as "normal" is useless to someone told to stay under
 2.5. Look for a personal band you can set yourself.
@@ -159,7 +159,7 @@ More on ranges and why labs disagree.
 
 A TSH value on its own says very little. A TSH value six weeks after a dose
 went from 75 to 88 micrograms says something. If dose changes are just free text
-in a notes field, the app cannot line them up against results — and the single
+in a notes field, the app cannot line them up against results -- and the single
 most useful view, the trend with changes marked on it, is impossible.
 
 4. How long does a normal day take?
@@ -178,9 +178,9 @@ you make increases the cost of ever switching.
 
 Any app stating a reference range, a retest interval or an absorption rule is
 making a medical claim. Check whether it says where the claim came from. Named
-sources — the American Thyroid Association,
+sources -- the American Thyroid Association,
 NIDDK,
-MedlinePlus — mean someone did the work and
+MedlinePlus -- mean someone did the work and
 you can check it. No sources means you are trusting a developer's memory.
 
 7. Does it tell you things, or guess at them?
@@ -190,7 +190,7 @@ can verify and take to a doctor. A wellness score out of 100, or an AI paragraph
 about what your labs suggest, is a black box in a domain where the treatment
 decision is not yours to make. Prefer the count.
 
-Where Thyrowise fits — and where it does not
+Where Thyrowise fits -- and where it does not
 
 Thyrowise is built to a specific shape: private, single-device, one person,
 sourced, no guessing. That makes it a poor fit for several perfectly reasonable
@@ -198,11 +198,11 @@ wants.
 
 | Thyrowise does | Thyrowise does not
 
-| Work with no account and no server, everything on device | Sync automatically across devices — the backup is a JSON file you save and restore yourself
+| Work with no account and no server, everything on device | Sync automatically across devices -- the backup is a JSON file you save and restore yourself
 
 | Chart TSH against the band your doctor gave you | Offer a patient community or peer support
 
-| Treat dose changes as dated events on the same timeline | Run on Android — that version is still in progress
+| Treat dose changes as dated events on the same timeline | Run on Android -- that version is still in progress
 
 | Count the empty-stomach wait down on the Lock Screen and Watch | Provide meal plans, recipes or supplement programmes
 
@@ -216,31 +216,31 @@ Listed so this page is useful rather than only promotional. Each description
 is drawn from the app's own store listing or website; features change, so check
 before you commit.
 
-ThyForLife — tracking combined
+ThyForLife -- tracking combined
 with a global thyroid community platform, iOS and Android.
 
-Thyra —
+Thyra --
 thyroid symptom tracking.
 
-Papillon — Thyroid Lab Tracker
-— lab-result logging, describes data as stored locally on the phone,
+Papillon -- Thyroid Lab Tracker
+-- lab-result logging, describes data as stored locally on the phone,
 Android.
 
 HashiTrack
-— Hashimoto's symptom and trigger tracking with AI-generated insights,
+-- Hashimoto's symptom and trigger tracking with AI-generated insights,
 Android.
 
 Hashimoto's Journey
-— medication adherence and lab logging.
+-- medication adherence and lab logging.
 
-CareClinic — a
+CareClinic -- a
 general health tracker with thyroid and TSH support.
 
 Last checked September 2026.
 
-Try Thyrowise — free on the App Store
+Try Thyrowise -- free on the App Store
 
-iPhone and Apple Watch · 11 languages · no account, no server
+iPhone and Apple Watch * 11 languages * no account, no server
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -256,7 +256,7 @@ llms.txt
 
 ---
 
-# Thyrowise FAQ — Privacy, Pricing, Android, Apple Watch
+# Thyrowise FAQ -- Privacy, Pricing, Android, Apple Watch
 URL: https://thyrowise.github.io/faq/
 
 Thyrowise
@@ -269,9 +269,9 @@ aykutaydmr@gmail.com and a person will reply.
 Is Thyrowise free?
 
 Yes, and the free tier is not a trial. Logging labs, symptoms, doses and
-medication reminders stays free. Thyrowise Pro is optional —
-4.99 USD monthly, 24.99 USD yearly with a 7-day free trial, or 29.99 USD once for
-a lifetime unlock — and adds the TSH trend chart against your own band,
+medication reminders stays free. Thyrowise Pro is optional --
+9.99 USD monthly, 29.99 USD yearly with a 7-day free trial, or 59.99 USD once for
+a lifetime unlock -- and adds the TSH trend chart against your own band,
 dose-impact comparison, symptom trends, the endocrinologist-ready PDF and CSV
 export.
 
@@ -287,7 +287,7 @@ Entirely. The app never needs a connection to log or read anything.
 Where is my data stored?
 
 On your device. A backup is a plain, readable JSON file that you export and put
-wherever you like — Files, your own iCloud Drive, a Mac. It is readable rather
+wherever you like -- Files, your own iCloud Drive, a Mac. It is readable rather
 than an opaque blob on purpose: a backup you cannot open is a promise you cannot
 check.
 
@@ -299,7 +299,7 @@ than merging, and it says so before it does it.
 
 Is there an Android version?
 
-Not yet — iPhone and Apple Watch today, Android in progress.
+Not yet -- iPhone and Apple Watch today, Android in progress.
 
 Is there an Apple Watch app?
 
@@ -315,7 +315,7 @@ nothing is inferred or diagnosed from it.
 Which lab values can I track?
 
 TSH, free T4, free T3, total T4, total T3, TPO antibodies, thyroglobulin
-antibodies and reverse T3 — each with the date drawn. Thyroid nodules and
+antibodies and reverse T3 -- each with the date drawn. Thyroid nodules and
 ultrasound scans too, including the TI-RADS category from the report.
 
 Can I get my data out?
@@ -324,7 +324,7 @@ PDF for the appointment, CSV for yourself, JSON for a full backup.
 
 Does it tell me what my results mean?
 
-No, and that is deliberate. Insights are counts of your own logs — "fatigue on
+No, and that is deliberate. Insights are counts of your own logs -- "fatigue on
 19 of the last 30 days, against 8 in the 30 before". Every medical statement in
 the app names its source, and the app lists them all on a Sources screen.
 What the ranges are and where they come from.
@@ -342,12 +342,12 @@ empty-stomach wait, so it fits hypothyroidism and Hashimoto's best.
 
 How do I cancel Pro?
 
-In your Apple ID settings, any time — at least 24 hours before the period ends
+In your Apple ID settings, any time -- at least 24 hours before the period ends
 to avoid renewal. Lifetime is one-time and has nothing to cancel.
 
 Get Thyrowise on the App Store
 
-Free · iPhone and Apple Watch · no account, no server
+Free * iPhone and Apple Watch * no account, no server
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -379,7 +379,7 @@ The problem with remembering
 Hashimoto's thyroiditis is the most common cause of an underactive thyroid, and
 what makes it hard to describe is the timescale. Symptoms move over weeks and
 months, not hours. By the appointment you are reporting how the last three days
-went, weighted by how today is going — which is not the question being asked.
+went, weighted by how today is going -- which is not the question being asked.
 
 Background: Hashimoto's Thyroiditis, American Thyroid Association; Hashimoto's Disease, NIDDK.
 
@@ -398,26 +398,26 @@ data is worth nothing when the interval that matters is six months.
 How often, and how much detail
 
 Daily, and almost no detail. A one-tap mark beats a paragraph, because the
-thing you are building is a series — and a series survives only if logging costs
+thing you are building is a series -- and a series survives only if logging costs
 you five seconds on a bad day. Detail is for the days when something unusual
 happens: a missed dose, a new supplement, a week of illness.
 
 Log these too, or the symptoms mean less
 
-Dose changes — with the date. Without them, a symptom
+Dose changes -- with the date. Without them, a symptom
 trend has no cause to be lined up against.
 
-Lab results — with the date drawn, not the date you were
+Lab results -- with the date drawn, not the date you were
 told.
 
-New medications and supplements — particularly calcium,
+New medications and supplements -- particularly calcium,
 iron and magnesium, which block levothyroxine absorption and need at least
 four hours of separation.
 
 What not to bother tracking
 
 TPO antibodies. They are the marker associated with Hashimoto's and are usually
-measured once, to answer a diagnostic question — following the number over time
+measured once, to answer a diagnostic question -- following the number over time
 does not track how the thyroid is doing. The same goes for thyroglobulin
 antibodies, which are reported against each laboratory's own cut-off rather than
 one shared number.
@@ -440,13 +440,13 @@ Symptoms are one-tap chips on the home screen. Labs, doses and dose changes
 share the same timeline. Pro turns all of it into a one-tap PDF built for handing
 across a desk, plus a CSV if you would rather keep your own copy.
 
-The insights are counts of your own logs, stated as counts — "fatigue on 19 of
+The insights are counts of your own logs, stated as counts -- "fatigue on 19 of
 the last 30 days, against 8 in the 30 before". No score, no AI guess about what it
 means. What it means is a conversation with your doctor.
 
 Get Thyrowise on the App Store
 
-Free · iPhone and Apple Watch · no account, no server
+Free * iPhone and Apple Watch * no account, no server
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -479,12 +479,12 @@ The short answer
 stomach, so it is usually taken first thing in the morning, with the first food
 or drink of the day held back for half an hour to an hour.
 
-Source: Levothyroxine — MedlinePlus Drug Information, U.S. National Library of Medicine.
+Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
 
 Why coffee gets singled out
 
 Nothing about coffee is uniquely forbidden. The rule is the empty stomach, and
-coffee is simply the thing most people reach for within ten minutes of waking —
+coffee is simply the thing most people reach for within ten minutes of waking --
 before the tablet has had any time at all. Coffee with milk adds calcium to the
 same swallow, which is a second problem rather than the same one.
 
@@ -495,9 +495,9 @@ The four-hour rule is a different rule
 
 Some things need much more separation than breakfast does. Keep
 calcium, iron, magnesium and antacids at least 4 hours away from
-a levothyroxine dose — they block absorption rather than merely slowing it.
+a levothyroxine dose -- they block absorption rather than merely slowing it.
 
-Source: Levothyroxine — MedlinePlus Drug Information, U.S. National Library of Medicine.
+Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
 
 This is the one people get wrong most often, because a calcium or iron
 supplement feels like part of the same morning routine as the thyroid tablet. If
@@ -506,23 +506,47 @@ both are daily, the usual fix is to move the supplement to the evening.
 Consistency beats precision
 
 The dose you are on was arrived at by measuring your TSH some weeks after a
-change — usually 6 to 12 weeks after — while you were taking the
+change -- usually 6 to 12 weeks after -- while you were taking the
 tablet in whatever way you take it.
 
 Source: Hypothyroidism, American Thyroid Association.
 
 That means a routine you can actually keep is worth more than an ideal one you
 follow twice a week. If 60 minutes without coffee is not going to survive a
-Tuesday, a reliable 30 is the better answer — and if you take it at night
+Tuesday, a reliable 30 is the better answer -- and if you take it at night
 instead, well after your last meal, that is a routine too. The failure mode is
 not "wrong window", it is a different window every day, because then a TSH result
 has nothing stable to be read against.
 
+The trap nobody warns you about: the morning drink
+
+The calcium tablet is easy to spot. The thing that actually catches people is
+breakfast in a carton -- a meal-replacement, protein or fibre drink taken on the
+way out the door, at exactly the wrong moment.
+
+Those hit two separate rules at once. The dairy is calcium,
+which belongs on the four-hour list rather than the thirty-minute one. And
+separately, MedlinePlus names soybeans, walnuts and dietary fibre
+as things that can affect how levothyroxine works for you -- so a carton that is
+dairy plus protein plus added fibre is close to the worst combination a person
+could assemble by accident.
+
+Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
+
+What makes it hard to catch is the lag. Nothing on the carton identifies
+itself as an interaction, and the effect shows up a week or two later as
+tiredness or dizziness -- by which point you are far more likely to blame your
+thyroid, your job or your sleep than a drink you started buying last Monday.
+
+If your mornings have changed and you cannot think why, the question worth
+asking is not only "what am I taking?" but "what am I drinking, and
+when?"
+
 What Thyrowise does about it
 
 Thyrowise turns the wait into something you do not have to hold in your head.
-When you mark the morning dose taken, it starts a countdown — on the Lock Screen,
-in a widget, and on the Apple Watch — and when the window closes it tells you
+When you mark the morning dose taken, it starts a countdown -- on the Lock Screen,
+in a widget, and on the Apple Watch -- and when the window closes it tells you
 coffee and breakfast are fine. The wait length is yours to set; it ships at 30
 minutes.
 
@@ -531,7 +555,7 @@ context of what changed and when.
 
 Get Thyrowise on the App Store
 
-Free · iPhone and Apple Watch · no account, no server
+Free * iPhone and Apple Watch * no account, no server
 
 Questions people also ask
 
@@ -544,7 +568,7 @@ What if I forget and eat straight away?
 
 One morning is one morning; it is not a dose you have to make up or double.
 What is worth doing is noting it, so that if a lab result comes back odd you can
-see whether that week was unusual. Never change a dose yourself — that is your
+see whether that week was unusual. Never change a dose yourself -- that is your
 doctor's call.
 
 Can I take it at bedtime instead?
@@ -568,7 +592,7 @@ llms.txt
 
 ---
 
-# Thyrowise Support — Contact and Medical Sources
+# Thyrowise Support -- Contact and Medical Sources
 URL: https://thyrowise.github.io/support/
 
 Thyrowise
@@ -577,14 +601,14 @@ Support.
 
 Email aykutaydmr@gmail.com.
 One person reads it, and replies. Include your iOS version and what you were
-doing — it saves a round trip.
+doing -- it saves a round trip.
 
 Common answers are on the FAQ page: pricing, Android,
 Apple Watch, Apple Health, export, and what happens to your data.
 
 Where our medical information comes from
 
-Thyrowise states a small number of medical facts — typical reference ranges, a
+Thyrowise states a small number of medical facts -- typical reference ranges, a
 retest interval, how levothyroxine is absorbed. Every one of them comes from a
 published source, and the app names the source next to the claim. The rule for
 the project is blunt: a claim with no source does not ship.
@@ -596,40 +620,40 @@ The claims, and what backs them
 
 Lab reference ranges
 
-Thyrowise shows typical adult ranges of about 0.4–4.0 mIU/L for TSH,
-0.8–1.8 ng/dL for free T4 and 2.3–4.2 pg/mL for free T3, and says throughout that
+Thyrowise shows typical adult ranges of about 0.4-4.0 mIU/L for TSH,
+0.8-1.8 ng/dL for free T4 and 2.3-4.2 pg/mL for free T3, and says throughout that
 ranges are approximate and differ between laboratories.
 
-Thyroid Function Tests — American Thyroid Association
+Thyroid Function Tests -- American Thyroid Association
 
 When TSH is rechecked
 
-Thyrowise says TSH is usually rechecked about 6–12 weeks after a dose change,
+Thyrowise says TSH is usually rechecked about 6-12 weeks after a dose change,
 and waits that long before showing what a dose change did.
 
-Hypothyroidism and ATA Professional Guidelines — American Thyroid Association
+Hypothyroidism and ATA Professional Guidelines -- American Thyroid Association
 
 Levothyroxine timing and absorption
 
 Thyrowise says levothyroxine is absorbed best on an empty stomach and offers a
-30–60 minute wait before coffee or breakfast, and says to keep calcium, iron,
+30-60 minute wait before coffee or breakfast, and says to keep calcium, iron,
 magnesium and antacids at least 4 hours away from a dose.
 
-Levothyroxine — MedlinePlus Drug Information — U.S. National Library of Medicine
+Levothyroxine -- MedlinePlus Drug Information -- U.S. National Library of Medicine
 
 TPO antibodies and Hashimoto's
 
 Thyrowise describes TPO antibodies as the marker associated with Hashimoto's
 thyroiditis, usually measured once rather than tracked.
 
-Hashimoto's Thyroiditis — American Thyroid Association; Hashimoto's Disease — NIDDK, National Institutes of Health
+Hashimoto's Thyroiditis -- American Thyroid Association; Hashimoto's Disease -- NIDDK, National Institutes of Health
 
 The symptom list
 
 The symptoms Thyrowise offers as one-tap chips are the ones commonly associated
 with an underactive thyroid and Hashimoto's.
 
-Hypothyroidism — American Thyroid Association; Hypothyroidism (Underactive Thyroid) — NIDDK
+Hypothyroidism -- American Thyroid Association; Hypothyroidism (Underactive Thyroid) -- NIDDK
 
 Total vs free T4 and T3
 
@@ -637,7 +661,7 @@ A total measures bound and free hormone together, so it shifts when binding
 proteins change, while free measurements more accurately reflect how the thyroid
 is working.
 
-Thyroid Function Tests — American Thyroid Association
+Thyroid Function Tests -- American Thyroid Association
 
 Thyroglobulin antibodies
 
@@ -645,7 +669,7 @@ Logged without a built-in normal range, because this test is reported against
 each laboratory's own cut-off. Antibodies help make the initial diagnosis, but
 following their levels over time does not track how the thyroid is doing.
 
-Antithyroglobulin antibody test — MedlinePlus, U.S. National Library of Medicine; ATA
+Antithyroglobulin antibody test -- MedlinePlus, U.S. National Library of Medicine; ATA
 
 Reverse T3
 
@@ -653,7 +677,7 @@ Thyrowise records a reverse T3 result if you have one, and says plainly that a
 review of the literature does not support measuring it routinely in the care of
 hypothyroidism or hyperthyroidism, and that most clinicians do not use it.
 
-Clinical Thyroidology for the Public, Vol 12 Issue 1 — American Thyroid Association
+Clinical Thyroidology for the Public, Vol 12 Issue 1 -- American Thyroid Association
 
 TI-RADS categories
 
@@ -661,7 +685,7 @@ Thyrowise stores the TI-RADS category written on your ultrasound report and
 links to the body that publishes the system. It does not score your scan or
 interpret the report itself.
 
-ACR Thyroid Imaging Reporting & Data System (TI-RADS) — American College of Radiology
+ACR Thyroid Imaging Reporting & Data System (TI-RADS) -- American College of Radiology
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -684,7 +708,7 @@ Thyrowise
 
 What is a normal TSH, and why does your lab's range differ?
 
-A typical adult range is about 0.4–4.0 mIU/L. But "typical" is
+A typical adult range is about 0.4-4.0 mIU/L. But "typical" is
 doing a lot of work in that sentence, and the number that matters for you is
 probably narrower.
 
@@ -692,11 +716,11 @@ Typical adult ranges
 
 | Test | Typical adult range | Units
 
-| TSH | about 0.4 – 4.0 | mIU/L
+| TSH | about 0.4 - 4.0 | mIU/L
 
-| Free T4 | about 0.8 – 1.8 | ng/dL
+| Free T4 | about 0.8 - 1.8 | ng/dL
 
-| Free T3 | about 2.3 – 4.2 | pg/mL
+| Free T3 | about 2.3 - 4.2 | pg/mL
 
 Source: Thyroid Function Tests, American Thyroid Association. These ranges are approximate and vary between laboratories.
 
@@ -704,7 +728,7 @@ Why two labs disagree about the same blood
 
 A reference range is not a law of nature. Each laboratory establishes its own
 interval from its own assay and its own reference population, so the printed
-range moves from lab to lab — and can move again when a single lab changes
+range moves from lab to lab -- and can move again when a single lab changes
 equipment.
 
 The practical consequence is worth stating plainly: compare your result
@@ -715,7 +739,7 @@ comfortably inside your own lab's.
 "Normal" and "your target" are not the same thing
 
 The printed range describes a population. The number your doctor is steering
-you toward describes you — and for someone on levothyroxine it is often narrower
+you toward describes you -- and for someone on levothyroxine it is often narrower
 than the full range, and sometimes deliberately offset from the middle of it.
 
 Someone told to stay under 2.5 does not get useful information from an app that
@@ -739,7 +763,7 @@ Free versus total, and the tests that are not trend lines
 
 Free T4 and free T3 measure unbound hormone. A
 total counts bound and free together, so it shifts when
-binding proteins change — in pregnancy, for instance — while the free
+binding proteins change -- in pregnancy, for instance -- while the free
 measurements more accurately reflect how the thyroid is working.
 (ATA, Thyroid Function Tests)
 
@@ -768,7 +792,7 @@ interpret them or tell you what your dose should be.
 
 Get Thyrowise on the App Store
 
-Free · iPhone and Apple Watch · no account, no server
+Free * iPhone and Apple Watch * no account, no server
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
