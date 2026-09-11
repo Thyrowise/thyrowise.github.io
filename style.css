@@ -1,0 +1,73 @@
+/* Palette is value-for-value the same as Shared/Theme.swift and the ad set, so
+   the site, the ads and the app are visibly one product. */
+:root{
+  --bg:#F7F5FC; --surface:#fff; --surface-alt:#EDE8F5;
+  --accent:#6B529E; --plum:#946187; --good:#5C8F6B; --warn:#C29142;
+  --text:#26242E; --text-soft:#706B7D; --sep:#E0DBE8;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#1C1A24; --surface:#282636; --surface-alt:#383548;
+    --accent:#A894D6; --plum:#BD8CAE; --good:#7AAE87; --warn:#D6A75C;
+    --text:#F2F0F5; --text-soft:#A6A1B3; --sep:#454154;
+  }
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;line-height:1.6;
+  display:flex;justify-content:center;padding:28px 20px 72px;
+}
+.wrap{width:100%;max-width:680px}
+
+/* header */
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--text)}
+.brand span{font-size:18px;font-weight:600;letter-spacing:-.2px}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:18px;
+    margin:26px 0 44px;padding-top:20px;border-top:1px solid var(--sep);font-size:15px}
+nav a{color:var(--text-soft);text-decoration:none}
+nav a:hover,nav a[aria-current]{color:var(--accent)}
+
+/* type */
+h1{font-size:clamp(30px,6vw,42px);line-height:1.14;font-weight:700;letter-spacing:-1px}
+h1 em{font-style:normal;color:var(--accent)}
+h2{font-size:clamp(21px,4vw,25px);line-height:1.25;font-weight:650;
+   letter-spacing:-.4px;margin:44px 0 14px}
+h3{font-size:18px;font-weight:650;margin:28px 0 8px}
+.lede{margin-top:18px;font-size:19px;color:var(--text-soft)}
+p{margin-top:14px}
+p a,li a,.foot a{color:var(--accent)}
+ul,ol{margin:14px 0 0 20px}
+li{margin-top:8px}
+strong{font-weight:650}
+
+/* blocks */
+.card{background:var(--surface);border:1px solid var(--sep);border-radius:16px;
+      padding:20px 22px;margin-top:26px}
+.card h3{margin-top:0}
+.card p:first-of-type{margin-top:0}
+.label{font-size:12.5px;font-weight:650;letter-spacing:1.3px;text-transform:uppercase;
+       color:var(--text-soft);display:block;margin-bottom:10px}
+.src{font-size:14.5px;color:var(--text-soft);margin-top:10px}
+.cta{display:inline-block;margin-top:26px;font-size:17px;font-weight:600;color:#fff;
+     background:var(--accent);border-radius:12px;padding:14px 24px;text-decoration:none}
+.cta:hover{filter:brightness(1.07)}
+.cta-note{margin-top:10px;font-size:14.5px;color:var(--text-soft)}
+
+/* table */
+.tw{width:100%;overflow-x:auto;margin-top:22px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:460px}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--sep);vertical-align:top}
+th{font-weight:650;color:var(--text-soft);font-size:13.5px;letter-spacing:.4px;text-transform:uppercase}
+
+/* faq */
+.qa{border-top:1px solid var(--sep);padding:20px 0}
+.qa h2{margin:0 0 8px;font-size:19px;letter-spacing:-.2px}
+
+/* footer */
+.disclaimer{margin-top:48px;padding:18px 20px;background:var(--surface-alt);
+            border-radius:14px;font-size:14.5px;color:var(--text-soft)}
+.foot{margin-top:32px;padding-top:20px;border-top:1px solid var(--sep);
+      font-size:13.5px;color:var(--text-soft);display:flex;flex-wrap:wrap;gap:14px}
