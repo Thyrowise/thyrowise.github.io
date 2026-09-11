@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thyrowise FAQ — Privacy, Pricing, Android, Apple Watch</title>
+<title>Thyrowise FAQ &#8212; Privacy, Pricing, Android, Apple Watch</title>
 <meta name="description" content="Answers about Thyrowise: whether it is free, whether it needs an account, where your data is stored, Android and Apple Watch availability, Apple Health, export, and what it can and cannot do.">
 <link rel="canonical" href="https://thyrowise.github.io/faq/">
 <link rel="stylesheet" href="/style.css">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Thyrowise">
 <meta property="og:title" content="Thyrowise FAQ">
-<meta property="og:description" content="Privacy, pricing, Android, Apple Watch, Apple Health, export — the questions people actually ask.">
+<meta property="og:description" content="Privacy, pricing, Android, Apple Watch, Apple Health, export &#8212; the questions people actually ask.">
 <meta property="og:url" content="https://thyrowise.github.io/faq/">
 <script type="application/ld+json">
 {
@@ -19,20 +19,118 @@
   "@id": "https://thyrowise.github.io/faq/#faq",
   "inLanguage": "en",
   "mainEntity": [
-    {"@type":"Question","name":"Is Thyrowise free?","acceptedAnswer":{"@type":"Answer","text":"Yes. Logging labs, symptoms, doses and medication reminders is free permanently and is not a trial. Thyrowise Pro is an optional upgrade at 4.99 USD monthly, 24.99 USD yearly with a 7-day free trial, or 29.99 USD once for a lifetime unlock. Pro adds the TSH trend chart against your own band, dose-impact comparison, symptom trends, the endocrinologist-ready PDF and CSV export."}},
-    {"@type":"Question","name":"Does Thyrowise need an account?","acceptedAnswer":{"@type":"Answer","text":"No. There is no sign-up, no login and no server. Nothing you enter leaves the device, so there is no account to be locked out of and no database of your thyroid history to be breached."}},
-    {"@type":"Question","name":"Does Thyrowise work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes, entirely. The app does not need a network connection to log or read anything, because all data is stored on the device."}},
-    {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On your own device. Thyrowise has no server and no cloud account. A backup is a plain readable JSON file that you export and place wherever you choose, such as Files or your own iCloud Drive, and the developer never sees it."}},
-    {"@type":"Question","name":"What happens if I lose my phone?","acceptedAnswer":{"@type":"Answer","text":"Because there is no server, a lost phone means a lost history unless you exported a backup file first. Restoring replaces the current contents rather than merging, and the file is readable JSON so you can open and check it yourself."}},
-    {"@type":"Question","name":"Is there an Android version of Thyrowise?","acceptedAnswer":{"@type":"Answer","text":"Not yet. Thyrowise is on iPhone and Apple Watch today, and an Android version is in progress."}},
-    {"@type":"Question","name":"Does Thyrowise have an Apple Watch app?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can mark the dose taken from the wrist, and the empty-stomach countdown runs there and on the Lock Screen as a widget."}},
-    {"@type":"Question","name":"Does Thyrowise connect to Apple Health?","acceptedAnswer":{"@type":"Answer","text":"Optionally. If you enable it, Thyrowise reads weight, sleep, steps and resting heart rate from Apple Health and shows them beside your log. It is off until you turn it on and can be revoked in Health at any time. Nothing is inferred or diagnosed from those readings."}},
-    {"@type":"Question","name":"Which lab values can Thyrowise track?","acceptedAnswer":{"@type":"Answer","text":"TSH, free T4, free T3, total T4, total T3, TPO antibodies, thyroglobulin antibodies and reverse T3, each with the date it was drawn. It also records thyroid nodules and ultrasound scans, including the TI-RADS category written on the report."}},
-    {"@type":"Question","name":"Can I export my data from Thyrowise?","acceptedAnswer":{"@type":"Answer","text":"Yes. Pro exports an endocrinologist-ready PDF of labs, doses, medications and symptoms, and a CSV of the underlying records. A full JSON backup is separate from both."}},
-    {"@type":"Question","name":"Does Thyrowise tell me what my results mean?","acceptedAnswer":{"@type":"Answer","text":"No. It is a tracking and reminder tool, not a medical device, and it gives no advice, diagnosis or treatment. Its insights are plain counts of your own logs, and every medical statement it makes names a published source such as the American Thyroid Association, NIDDK or MedlinePlus."}},
-    {"@type":"Question","name":"What languages does Thyrowise support?","acceptedAnswer":{"@type":"Answer","text":"Eleven: English, Spanish, Simplified Chinese, Hindi, Arabic, Brazilian Portuguese, French, German, Japanese, Russian and Turkish."}},
-    {"@type":"Question","name":"Is Thyrowise useful for hyperthyroidism or Graves' disease?","acceptedAnswer":{"@type":"Answer","text":"Partly. Lab logging, symptom logging and the trend chart work for any thyroid condition, but the medication features are built around a daily levothyroxine dose and its empty-stomach wait, so they fit hypothyroidism and Hashimoto's best."}},
-    {"@type":"Question","name":"How do I cancel Thyrowise Pro?","acceptedAnswer":{"@type":"Answer","text":"Subscriptions are managed in your Apple ID settings and can be cancelled there at any time; cancel at least 24 hours before the period ends to avoid renewal. The Lifetime purchase is one-time and has nothing to cancel."}}
+    {
+      "@type": "Question",
+      "name": "Is Thyrowise free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Logging labs, symptoms, doses and medication reminders is free permanently and is not a trial. Thyrowise Pro is an optional upgrade at 9.99 USD monthly, 29.99 USD yearly with a 7-day free trial, or 59.99 USD once for a lifetime unlock. Pro adds the TSH trend chart against your own band, dose-impact comparison, symptom trends, the endocrinologist-ready PDF and CSV export."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thyrowise need an account?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. There is no sign-up, no login and no server. Nothing you enter leaves the device, so there is no account to be locked out of and no database of your thyroid history to be breached."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thyrowise work offline?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, entirely. The app does not need a network connection to log or read anything, because all data is stored on the device."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is my data stored?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On your own device. Thyrowise has no server and no cloud account. A backup is a plain readable JSON file that you export and place wherever you choose, such as Files or your own iCloud Drive, and the developer never sees it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I lose my phone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because there is no server, a lost phone means a lost history unless you exported a backup file first. Restoring replaces the current contents rather than merging, and the file is readable JSON so you can open and check it yourself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an Android version of Thyrowise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not yet. Thyrowise is on iPhone and Apple Watch today, and an Android version is in progress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thyrowise have an Apple Watch app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can mark the dose taken from the wrist, and the empty-stomach countdown runs there and on the Lock Screen as a widget."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thyrowise connect to Apple Health?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Optionally. If you enable it, Thyrowise reads weight, sleep, steps and resting heart rate from Apple Health and shows them beside your log. It is off until you turn it on and can be revoked in Health at any time. Nothing is inferred or diagnosed from those readings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which lab values can Thyrowise track?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TSH, free T4, free T3, total T4, total T3, TPO antibodies, thyroglobulin antibodies and reverse T3, each with the date it was drawn. It also records thyroid nodules and ultrasound scans, including the TI-RADS category written on the report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export my data from Thyrowise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pro exports an endocrinologist-ready PDF of labs, doses, medications and symptoms, and a CSV of the underlying records. A full JSON backup is separate from both."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thyrowise tell me what my results mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is a tracking and reminder tool, not a medical device, and it gives no advice, diagnosis or treatment. Its insights are plain counts of your own logs, and every medical statement it makes names a published source such as the American Thyroid Association, NIDDK or MedlinePlus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What languages does Thyrowise support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eleven: English, Spanish, Simplified Chinese, Hindi, Arabic, Brazilian Portuguese, French, German, Japanese, Russian and Turkish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Thyrowise useful for hyperthyroidism or Graves' disease?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partly. Lab logging, symptom logging and the trend chart work for any thyroid condition, but the medication features are built around a daily levothyroxine dose and its empty-stomach wait, so they fit hypothyroidism and Hashimoto's best."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I cancel Thyrowise Pro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subscriptions are managed in your Apple ID settings and can be cancelled there at any time; cancel at least 24 hours before the period ends to avoid renewal. The Lifetime purchase is one-time and has nothing to cancel."
+      }
+    }
   ]
 }
 </script>
@@ -66,9 +164,9 @@
 
 <div class="qa"><h2>Is Thyrowise free?</h2>
 <p>Yes, and the free tier is not a trial. Logging labs, symptoms, doses and
-medication reminders stays free. <strong>Thyrowise Pro</strong> is optional —
-4.99 USD monthly, 24.99 USD yearly with a 7-day free trial, or 29.99 USD once for
-a lifetime unlock — and adds the TSH trend chart against your own band,
+medication reminders stays free. <strong>Thyrowise Pro</strong> is optional &#8212;
+9.99 USD monthly, 29.99 USD yearly with a 7-day free trial, or 59.99 USD once for
+a lifetime unlock &#8212; and adds the TSH trend chart against your own band,
 dose-impact comparison, symptom trends, the endocrinologist-ready PDF and CSV
 export.</p></div>
 
@@ -81,7 +179,7 @@ and no database of your thyroid history anywhere to be breached.</p></div>
 
 <div class="qa"><h2>Where is my data stored?</h2>
 <p>On your device. A backup is a plain, readable JSON file that you export and put
-wherever you like — Files, your own iCloud Drive, a Mac. It is readable rather
+wherever you like &#8212; Files, your own iCloud Drive, a Mac. It is readable rather
 than an opaque blob on purpose: a backup you cannot open is a promise you cannot
 check.</p></div>
 
@@ -91,7 +189,7 @@ exported a backup first. Restoring <em>replaces</em> what is in the app rather
 than merging, and it says so before it does it.</p></div>
 
 <div class="qa"><h2>Is there an Android version?</h2>
-<p>Not yet — iPhone and Apple Watch today, Android in progress.</p></div>
+<p>Not yet &#8212; iPhone and Apple Watch today, Android in progress.</p></div>
 
 <div class="qa"><h2>Is there an Apple Watch app?</h2>
 <p>Yes. Mark the dose taken from the wrist; the empty-stomach countdown runs there
@@ -104,14 +202,14 @@ nothing is inferred or diagnosed from it.</p></div>
 
 <div class="qa"><h2>Which lab values can I track?</h2>
 <p>TSH, free T4, free T3, total T4, total T3, TPO antibodies, thyroglobulin
-antibodies and reverse T3 — each with the date drawn. Thyroid nodules and
+antibodies and reverse T3 &#8212; each with the date drawn. Thyroid nodules and
 ultrasound scans too, including the TI-RADS category from the report.</p></div>
 
 <div class="qa"><h2>Can I get my data out?</h2>
 <p>PDF for the appointment, CSV for yourself, JSON for a full backup.</p></div>
 
 <div class="qa"><h2>Does it tell me what my results mean?</h2>
-<p>No, and that is deliberate. Insights are counts of your own logs — "fatigue on
+<p>No, and that is deliberate. Insights are counts of your own logs &#8212; "fatigue on
 19 of the last 30 days, against 8 in the 30 before". Every medical statement in
 the app names its source, and the app lists them all on a Sources screen.
 <a href="/what-is-a-normal-tsh/">What the ranges are and where they come from.</a></p></div>
@@ -126,11 +224,11 @@ condition. The medication side is built around a daily levothyroxine dose and it
 empty-stomach wait, so it fits hypothyroidism and Hashimoto's best.</p></div>
 
 <div class="qa"><h2>How do I cancel Pro?</h2>
-<p>In your Apple ID settings, any time — at least 24 hours before the period ends
+<p>In your Apple ID settings, any time &#8212; at least 24 hours before the period ends
 to avoid renewal. Lifetime is one-time and has nothing to cancel.</p></div>
 
 <a class="cta" href="https://apps.apple.com/app/id6788131267">Get Thyrowise on the App Store</a>
-<p class="cta-note">Free · iPhone and Apple Watch · no account, no server</p>
+<p class="cta-note">Free &#183; iPhone and Apple Watch &#183; no account, no server</p>
 
 <div class="disclaimer">
   Thyrowise is a tracking and reminder tool. It is not a medical device and does
