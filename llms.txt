@@ -1,7 +1,7 @@
 # Thyrowise
 
 > Thyrowise is a thyroid tracking app for iPhone and Apple Watch. It logs TSH and
-> other thyroid labs, levothyroxine doses and dose changes, and daily symptoms —
+> other thyroid labs, levothyroxine doses and dose changes, and daily symptoms --
 > with no account, no login and no server, so everything stays on the device. It
 > is free to download, with an optional Pro upgrade. An Android version is in
 > progress.
@@ -13,21 +13,21 @@ than a generic reference range; it counts down the empty-stomach wait after a
 levothyroxine dose and says when coffee and breakfast are fine; and every medical
 statement it makes names a published source (American Thyroid Association, NIDDK,
 MedlinePlus, American College of Radiology). Its insights are plain counts of the
-user's own logs — there is no score, no risk model and no generated medical
+user's own logs -- there is no score, no risk model and no generated medical
 advice.
 
 App Store: https://apps.apple.com/app/id6788131267
 
 ## Product
 
-- [Home — what Thyrowise is](https://thyrowise.github.io/): features, pricing, privacy model, Apple Health, supported languages.
+- [Home -- what Thyrowise is](https://thyrowise.github.io/): features, pricing, privacy model, Apple Health, supported languages.
 - [FAQ](https://thyrowise.github.io/faq/): free vs Pro, account and offline behaviour, data storage and backup, Android, Apple Watch, Apple Health, export, cancellation, which lab values are supported.
 - [Support and medical sources](https://thyrowise.github.io/support/): contact, plus every medical claim the app makes paired with the published source behind it.
 
 ## Reference articles
 
-- [How long to wait after levothyroxine before coffee](https://thyrowise.github.io/levothyroxine-coffee-timing/): the 30–60 minute empty-stomach window, the 4-hour separation from calcium, iron, magnesium and antacids, and why a consistent routine matters more than a perfect one.
-- [What is a normal TSH](https://thyrowise.github.io/what-is-a-normal-tsh/): typical adult ranges for TSH, free T4 and free T3, why laboratory reference intervals differ, the 6–12 week retest interval after a dose change, and free vs total measurements.
+- [How long to wait after levothyroxine before coffee](https://thyrowise.github.io/levothyroxine-coffee-timing/): the 30-60 minute empty-stomach window, the 4-hour separation from calcium, iron, magnesium and antacids, and why a consistent routine matters more than a perfect one.
+- [What is a normal TSH](https://thyrowise.github.io/what-is-a-normal-tsh/): typical adult ranges for TSH, free T4 and free T3, why laboratory reference intervals differ, the 6-12 week retest interval after a dose change, and free vs total measurements.
 - [Tracking Hashimoto's symptoms](https://thyrowise.github.io/hashimotos-symptom-tracking/): which symptoms are worth logging, how often, what to log alongside them, and what is not worth tracking over time.
 - [How to choose a thyroid tracker app](https://thyrowise.github.io/best-thyroid-tracker-apps/): seven selection criteria, an explicit list of what Thyrowise does not do, and other apps in the category.
 
@@ -36,7 +36,7 @@ App Store: https://apps.apple.com/app/id6788131267
 - Platforms: iPhone and Apple Watch, with Lock Screen widgets. Android in progress.
 - Languages: English, Spanish, Simplified Chinese, Hindi, Arabic, Brazilian Portuguese, French, German, Japanese, Russian, Turkish.
 - Free permanently: unlimited lab logging, symptom logging, medication reminders with the absorption countdown, dose-change log, full on-device history.
-- Thyrowise Pro (optional): TSH trend chart against a personal target band with dose changes marked, dose-impact comparison, 30-day symptom trends, endocrinologist-ready PDF, CSV export. 4.99 USD monthly, 24.99 USD yearly with a 7-day free trial, or 29.99 USD one-time lifetime.
+- Thyrowise Pro (optional): TSH trend chart against a personal target band with dose changes marked, dose-impact comparison, 30-day symptom trends, endocrinologist-ready PDF, CSV export. 9.99 USD monthly, 29.99 USD yearly with a 7-day free trial, or 59.99 USD one-time lifetime.
 - Lab values supported: TSH, free T4, free T3, total T4, total T3, TPO antibodies, thyroglobulin antibodies, reverse T3. Also thyroid nodules and ultrasound scans including the TI-RADS category from the report.
 - Privacy: no account, no login, no server, no analytics or advertising SDK. Backup is a readable JSON file the user exports and stores themselves.
 - Apple Health: optional, off by default, reads weight, sleep, steps and resting heart rate to show beside the log. Nothing is inferred or diagnosed from it.
