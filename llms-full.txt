@@ -1,5 +1,5 @@
 # Thyrowise -- full site text
-# Generated 2026-09-11 from https://thyrowise.github.io. Structured index: https://thyrowise.github.io/llms.txt
+# Generated 2026-09-12 from https://thyrowise.github.io. Structured index: https://thyrowise.github.io/llms.txt
 
 # Thyrowise -- Thyroid Tracker for Hashimoto's and Hypothyroidism
 URL: https://thyrowise.github.io/
@@ -127,7 +127,7 @@ llms.txt
 
 ---
 
-# How to Choose a Thyroid Tracker App: 7 Things That Actually Matter
+# Best Thyroid Tracker Apps: How to Choose, and Where Thyrowise Falls Short
 URL: https://thyrowise.github.io/best-thyroid-tracker-apps/
 
 Thyrowise
@@ -241,6 +241,18 @@ Last checked September 2026.
 Try Thyrowise -- free on the App Store
 
 iPhone and Apple Watch * 11 languages * no account, no server
+
+About this page
+
+Written by the developer of Thyrowise. I am not a doctor and this is
+not medical advice -- it is a plain-language write-up of published
+guidance, with every claim linked to the source it came from so you can open it
+and check.
+
+Where it has been wrong, readers have caught it. The corrections on this page
+came from people in r/Hypothyroidism
+who knew the literature better than I did. If you find another,
+tell me and I will fix it and say what changed.
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -448,6 +460,18 @@ Get Thyrowise on the App Store
 
 Free * iPhone and Apple Watch * no account, no server
 
+About this page
+
+Written by the developer of Thyrowise. I am not a doctor and this is
+not medical advice -- it is a plain-language write-up of published
+guidance, with every claim linked to the source it came from so you can open it
+and check.
+
+Where it has been wrong, readers have caught it. The corrections on this page
+came from people in r/Hypothyroidism
+who knew the literature better than I did. If you find another,
+tell me and I will fix it and say what changed.
+
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
 approximate and vary between laboratories. Always follow your doctor's plan;
@@ -475,21 +499,34 @@ hours away.
 
 The short answer
 
-30 to 60 minutes. Levothyroxine is absorbed best on an empty
-stomach, so it is usually taken first thing in the morning, with the first food
-or drink of the day held back for half an hour to an hour.
+Food: 30 to 60 minutes. Coffee: an hour. Levothyroxine is
+absorbed best on an empty stomach, so it is taken first thing and breakfast is
+held back. Coffee is given its own, longer interval because it interferes with
+absorption directly rather than merely breaking the fast.
 
-Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
+Calcium and iron supplements: 2 to 4 hours, and they are the
+ones people most often get wrong.
 
-Why coffee gets singled out
+Sources: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine; Levothyroxine Interactions with Food and Dietary Supplements -- A Systematic Review.
 
-Nothing about coffee is uniquely forbidden. The rule is the empty stomach, and
-coffee is simply the thing most people reach for within ten minutes of waking --
-before the tablet has had any time at all. Coffee with milk adds calcium to the
-same swallow, which is a second problem rather than the same one.
+Why coffee gets its own rule
 
-So the practical version is: the tablet, then the window, then whatever you
-normally have.
+Coffee is not just the first thing that breaks the fast. It interferes with
+levothyroxine specifically, and the effect has been measured.
+
+In the study that established this, espresso swallowed together with the
+tablet lowered the rise in serum T4 by 36% on average in thyroid patients
+and 29% in healthy volunteers, with peak levels down 30% and 19%. The
+proposed mechanism is that coffee sequesters the hormone in the gut, leaving less
+of it available to be taken up.
+
+Sources: Benvenga S et al., Altered intestinal absorption of L-thyroxine caused by coffee, Thyroid 2008;18(3):293-301; figures as reported in Levothyroxine Interactions with Food and Dietary Supplements -- A Systematic Review.
+
+That is why the guidance for coffee is an hour, not the 30
+minutes that is often enough for food. The same review notes that liquid
+levothyroxine formulations did not show a significant interaction with coffee --
+if the hour is genuinely impossible for you, that is a question worth putting to
+your doctor rather than something to solve on your own.
 
 The four-hour rule is a different rule
 
@@ -524,12 +561,29 @@ The calcium tablet is easy to spot. The thing that actually catches people is
 breakfast in a carton -- a meal-replacement, protein or fibre drink taken on the
 way out the door, at exactly the wrong moment.
 
-Those hit two separate rules at once. The dairy is calcium,
-which belongs on the four-hour list rather than the thirty-minute one. And
-separately, MedlinePlus names soybeans, walnuts and dietary fibre
-as things that can affect how levothyroxine works for you -- so a carton that is
-dairy plus protein plus added fibre is close to the worst combination a person
-could assemble by accident.
+The reason is simpler than a special interaction: it is food, and it is
+arriving at the exact moment the tablet needs an empty stomach. On top of that,
+MedlinePlus names soybeans, walnuts and dietary fibre as things
+that can affect how levothyroxine works for you -- so a carton with added fibre
+or soy protein is doing more than just breaking the fast.
+
+Milk as food is a smaller problem than a calcium tablet
+
+These are two different sizes of the same effect, and it is worth keeping
+them apart.
+
+Calcium and iron supplements need 2 to 4 hours of
+separation; MedlinePlus gives at least 4 for calcium carbonate and ferrous
+sulfate. Milk as food is measurable but much smaller: in the
+one study of it, taking levothyroxine with 355 mL of 2% cow milk lowered peak T4
+and total exposure by about 8%. The review is explicit that the
+separation needed for milk is unknown, and that the finding cannot be extended
+to plant-based milks.
+
+So dairy at breakfast, after the window, is not the thing to lose sleep over.
+Dairy inside the window -- the carton on the way out the door -- is.
+
+Source: Levothyroxine Interactions with Food and Dietary Supplements -- A Systematic Review.
 
 Source: Levothyroxine -- MedlinePlus Drug Information, U.S. National Library of Medicine.
 
@@ -542,6 +596,51 @@ If your mornings have changed and you cannot think why, the question worth
 asking is not only "what am I taking?" but "what am I drinking, and
 when?"
 
+Does going back to sleep after your dose matter?
+
+Asked often, and the honest starting point is that no study has tested
+lying down versus staying up after a morning dose. What exists is
+indirect, and it points reassuringly in one direction.
+
+Levothyroxine is absorbed in the small intestine, and how fast the stomach
+empties is one of the main things that limits it. That is the reason to suspect
+that dozing off might slow things down. But the strongest evidence available is
+about people who sleep for eight hours straight after their dose: those who take
+it at bedtime.
+
+In a randomised double-blind crossover trial, moving the dose from morning to
+bedtime improved the numbers -- TSH fell by 1.25 mIU/L, free T4 rose by
+0.07 ng/dL and total T3 by 6.5 ng/dL. If a full night's sleep after the tablet
+produced better results than a morning dose, going back to bed for two hours is
+unlikely to be the thing ruining your levels.
+
+Source: Bolk N et al., Effects of evening vs morning levothyroxine intake: a randomized double-blind crossover trial, Arch Intern Med 2010;170(22). See also a later pragmatic crossover trial in older patients.
+
+If your own levels are off and you cannot explain it, this is still worth
+raising with your doctor -- but it is far down the list, well below coffee,
+supplements and simply taking it at a different time each day.
+
+What about oat, almond or soy milk?
+
+Two different things decide the answer, and both are printed on the carton.
+
+Added calcium. Plant milks are usually fortified, and many are
+fortified to match or exceed cow's milk. Cow's milk carries roughly 450 mg of
+calcium per 355 mL. Read the label and compare: if your oat milk is in the same
+range, treat it the same way you would treat milk.
+
+Soy is a separate issue. MedlinePlus names soybeans, alongside
+walnuts and dietary fibre, as things that can affect how levothyroxine works for
+you, and soy protein taken close to a dose has been reported to interfere with
+absorption. So soy milk carries a reason for caution that almond milk does not,
+independent of how much calcium was added to it.
+
+Sources: Levothyroxine -- MedlinePlus Drug Information; Levothyroxine Interactions with Food and Dietary Supplements -- A Systematic Review, which states plainly that the cow's milk finding cannot be extrapolated to plant-based alternatives.
+
+The practical version: check the calcium figure on your carton, be a little more
+careful with soy than with the others, and keep whichever one you use after the
+window rather than inside it.
+
 What Thyrowise does about it
 
 Thyrowise turns the wait into something you do not have to hold in your head.
@@ -552,6 +651,12 @@ minutes.
 
 It also keeps the dose-change log, so the next lab result arrives with the
 context of what changed and when.
+
+Related: what a normal TSH actually is, and why
+your lab's range differs from the one you read online *
+how to track symptoms so the appointment is
+worth something *
+how to choose a thyroid tracker app.
 
 Get Thyrowise on the App Store
 
@@ -577,6 +682,18 @@ Some people do, because the requirement is an empty stomach rather than a
 particular hour, and the evening can be easier to keep clear than the morning.
 Discuss the switch with your doctor first, and expect the next TSH to be the
 thing that confirms it worked.
+
+About this page
+
+Written by the developer of Thyrowise. I am not a doctor and this is
+not medical advice -- it is a plain-language write-up of published
+guidance, with every claim linked to the source it came from so you can open it
+and check.
+
+Where it has been wrong, readers have caught it. The corrections on this page
+came from people in r/Hypothyroidism
+who knew the literature better than I did. If you find another,
+tell me and I will fix it and say what changed.
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
@@ -793,6 +910,18 @@ interpret them or tell you what your dose should be.
 Get Thyrowise on the App Store
 
 Free * iPhone and Apple Watch * no account, no server
+
+About this page
+
+Written by the developer of Thyrowise. I am not a doctor and this is
+not medical advice -- it is a plain-language write-up of published
+guidance, with every claim linked to the source it came from so you can open it
+and check.
+
+Where it has been wrong, readers have caught it. The corrections on this page
+came from people in r/Hypothyroidism
+who knew the literature better than I did. If you find another,
+tell me and I will fix it and say what changed.
 
 Thyrowise is a tracking and reminder tool. It is not a medical device and does
 not give medical advice, diagnosis or treatment. Reference ranges are
